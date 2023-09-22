@@ -32,11 +32,11 @@ namespace Root
         private Vector3 _moveUp;
         private Vector3 _moveDown;
 
+        private const float _maxTimeTimer = 1f;
+        private const float _lateJumpTimer = 0.4f;
         private bool _wasJumpReleased = true;
         private bool _isTryingToJump;
-        private float _lateJumpTimer = 0.4f;
         private float _totalJumpTime;
-        private float _maxTimeTimer = 1f;
         private bool _canDoLateWallJump;
         private bool _wasGounded;
         private bool _wasWalled;
